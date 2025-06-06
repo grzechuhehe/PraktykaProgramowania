@@ -13,7 +13,7 @@ def test_subtract(a,b,expected):
     result = utils.subtract(a,b)
     assert result == expected
 
-@pytest.mark.parametrize("a,b,expected", [(1,2,3),(2,3,6), (3,4,12), (4,5,20)])
+@pytest.mark.parametrize("a,b,expected", [(1,2,2),(2,3,6), (3,4,12), (4,5,20)])
 
 def test_multiply(a,b,expected):
     result = utils.multiply(a,b)
